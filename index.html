@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Blog-practice</title>
+
+  <style>
+    * {
+      font-family:
+        -apple-system, BlinkMacSystemFont,
+        "Microsoft Jhenghei", "Segoe UI", "Roboto", fallback,
+        "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    .breadcrumb {
+      background-color: transparent;
+    }
+
+    .text-hexschool {
+      color: #00cc99 !important
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00cc99;">
+    <a class="navbar-brand" href="#"><i class="fa fa-diamond" aria-hidden="true"></i>六角部落格</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <ol class="breadcrumb pl-0">
+      <li class="breadcrumb-item"><a href="#" class="text-hexschool">Home</a></li>
+      <li class="breadcrumb-item"><a href="#" class="text-hexschool">部落格</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Bootstrap</li>
+    </ol>
+
+    <h1 class="text-hexschool">Bootstrap 4 繁體中文手冊</h1>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="my-2 text-secondary">
+          <small>
+            <span class="mr-3"><i class="fa fa-user-o" aria-hidden="true"></i>歷歷</span>
+            <span class="mr-3">2020/04/16</span>
+            <span class="mr-3"><i class="fa fa-tag" aria-hidden="true"></i>event</span>
+          </small>
+        </div>
+        <article>
+          <p>使用世界上最受歡迎的前端元件庫，建立響應式、行動優先的專案。
+            Bootstrap 是一個用於開發 HTML、CSS 和 JS 的開源工具包。 透過我們的 Sass 和 mixins、響應式網格系統、預先建構的組件以及基於 jQuery 開發的插件來
+            快速建構你的想法或是應用程式！
+          </p>
+          <h3 class="text-secondary">Bootstrap 4 的特色</h3>
+          <p>使用世界上最受歡迎的前端元件庫，建立響應式、行動優先的專案。
+            Bootstrap 是一個用於開發 <code>css</code> 和 <code>JS</code> 的開源工具包。 透過我們的 <code>Sass</code> 和
+            <code>mixins</code>、響應式網格系統、預先建構的組件以及基於 <code>jQuery</code> 開發的插件來
+            快速建構你的想法或是應用程式！
+          </p>
+          <ul>
+            <li>使用世界上最受歡迎的前端元件庫，建立響應式、行動優先的專案。</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt hic porro quidem repudiandae
+              praesentium
+              quo voluptatibus culpa veniam repellendus, blanditiis nobis doloribus minus, libero obcaecati eum harum
+              minima eligendi molestiae.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis fuga aliquid error eius iusto,
+              optio
+              magnam, doloremque vitae, odit voluptate sequi consequatur mollitia commodi debitis saepe eum minima
+              laboriosam vel.Nobis reiciendis facilis soluta tempore nisi autem vero, qui dolore quis cum id modi
+              numquam
+              quasi ipsam. Earum maiores, harum nisi esse molestiae cupiditate officia quasi odit commodi ipsa quidem?
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore beatae</li>
+          </ul>
+        </article>
+        <img src="https://pic2.zhimg.com/v2-a457eb76e02f5df17d1e0a9602f461ac_1200x500.jpg" class="img-fluid" alt="">
+
+        <div class="card">
+          <div class="card-header">
+            留言回覆
+          </div>
+          <div class="card-body">
+            <div class="media mb-4">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" class="mr-3" width="64px" height="64px"
+                alt="...">
+              <div class="media-body">
+                <h5 class="mt-0">歷歷</h5>
+                <div class="form-group">
+                  <textarea class="form-control" rows="3" placeholder="請在此留言"></textarea>
+                  <button class="btn btn-light btn-block mt-2">Submit</button>
+                </div>
+              </div>
+            </div>
+            <div class="media">
+              <img src="https://randomuser.me/api/portraits/men/62.jpg" class="mr-3" width="64px" height="64px"
+                alt="...">
+              <div class="media-body">
+                <h5 class="mt-0">Jhon</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                odio,
+                vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                Donec lacinia
+                congue felis in faucibus.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h2 class="text-secondary">Tags</h2>
+        <a href="#" class="badge badge-info"><i class="fa fa-tag" aria-hidden="true"></i>css</a>
+        <a href="#" class="badge badge-info"><i class="fa fa-tag" aria-hidden="true"></i>Bootstrap</a>
+        <a href="#" class="badge badge-info"><i class="fa fa-tag" aria-hidden="true"></i>html</a>
+        <a href="#" class="badge badge-info"><i class="fa fa-tag" aria-hidden="true"></i>JS</a>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-light py-4 mt-3">
+    <div class="container d-flex justify-content-between">
+      <div class="text-secondary">&copy; 2017 六角部落格</div>
+      <div>
+        <a href="#" class="text-hexschool">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <i class="fa fa-github" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
